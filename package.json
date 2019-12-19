@@ -1,0 +1,52 @@
+{
+  "name": "rd-to-wgs84",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./demo/index.js",
+    "lint": "eslint -c ./package.json ./src"
+  },
+  "author": {
+    "name": "Glenn de Haan",
+    "email": "glenn@dehaan.cloud",
+    "url": "https://glenndehaan.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glenndehaan/rd-to-wgs84.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    },
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "rules": {
+      "comma-dangle": [
+        "error",
+        "never"
+      ],
+      "indent": [
+        "error",
+        4
+      ]
+    },
+    "extends": [
+      "eslint:recommended"
+    ]
+  },
+  "eslintIgnore": [
+    "*.test.js"
+  ],
+  "devDependencies": {
+    "eslint": "^6.7.2"
+  }
+}
