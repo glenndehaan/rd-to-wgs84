@@ -1,5 +1,7 @@
 # RD To WGS84
 
+A simple converter for the dutch coordinate system to the generic WGS84 GPS coordinates
+
 [![npm](https://img.shields.io/npm/v/rd-to-wgs84.svg)](https://www.npmjs.com/package/rd-to-wgs84) ![node](https://img.shields.io/node/v/rd-to-wgs84.svg)
 
 ## Setup
