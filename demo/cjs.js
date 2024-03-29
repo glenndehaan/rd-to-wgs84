@@ -1,7 +1,7 @@
 /**
  * Import module
  */
-const rdToWgs84 = require('../src');
+const rdToWgs84 = require('../');
 
 /**
  * Convert dutch coordinates
