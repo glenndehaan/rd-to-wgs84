@@ -1,6 +1,6 @@
 {
   "name": "rd-to-wgs84",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A simple converter for the dutch coordinate system to the generic WGS84 GPS coordinates",
   "main": "./src/cjs.js",
   "module": "./src/esm.mjs",
@@ -48,7 +48,7 @@
     "*.test.js"
   ],
   "devDependencies": {
-    "eslint": "^6.7.2"
+    "eslint": "^8.57.0"
   },
   "types": "./src/index.d.ts"
 }
