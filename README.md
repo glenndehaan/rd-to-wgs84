@@ -13,6 +13,10 @@ Require the util somewhere in your code:
 ```
 const rdToWgs84 = require('rd-to-wgs84');
 ```
+or
+```
+import rdToWgs84 from 'rd-to-wgs84';
+```
 
 ## Usage
 ```
